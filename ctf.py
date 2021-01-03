@@ -57,8 +57,12 @@ def checkjpg(pic):
             print("If you want to input the password please choose 1, if you dont have the password please choose 2")
             choice=input()
             if '1' in choice:
+                print("input the password")
                 passo=input()
                 os.system('outguess -k {} -r {} out.txt'.format(passo,pic))
+                size=os.stat('out.txt')
+                if size.st_size>0:
+                    print('Password right!')
             if '2' in choice:
                 os.system('python3 break1.py')
             print("We have tried outguess jphide and steghide if it doesn't work,please try the others like Invisible secret and blabla")
