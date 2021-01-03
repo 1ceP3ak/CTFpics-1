@@ -11,7 +11,7 @@ while line:
     if file_stats.st_size > 0:
         flag=1
         print(line)
-        print("find!")
+        print("[+]------------------------find!Password:"+line)
         break
     print(line)
     line=t.readline()
