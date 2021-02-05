@@ -1,0 +1,21 @@
+b1,r,lsb,xy         .. b1,r,msb,xy         .. b1,g,lsb,xy         .. b1,g,msb,xy         .. b1,b,lsb,xy         .. b1,b,msb,xy         .. b1,a,lsb,xy         .. b1,a,msb,xy         .. b1,rgb,lsb,xy       .. b1,rgb,msb,xy       .. b1,bgr,lsb,xy       .. <wbStego size=68, ext="\x00\x18E", data="\x83\xBCXyA\x0F;L\xB5\xE5"..., even=false>
+b1,bgr,msb,xy       .. b1,rgba,lsb,xy      .. b1,rgba,msb,xy      .. b1,abgr,lsb,xy      .. b1,abgr,msb,xy      .. file: PGP Secret Key -
+b2,r,lsb,xy         .. text: "UUUUUUUZ"
+b2,r,msb,xy         .. text: "jUUUUUUUUUUUUUUUUUUUU"
+b2,g,lsb,xy         .. text: "UUUUUUUZ"
+b2,g,msb,xy         .. text: "jUUUUUUUUUUUUUUUUUUUU"
+b2,b,lsb,xy         .. text: "UUUUUUUZ"
+b2,b,msb,xy         .. text: "jUUUUUUUUUUUUUUUUUUUU"
+b2,a,lsb,xy         .. b2,a,msb,xy         .. b2,rgb,lsb,xy       .. text: "UUUUUUUUUUUUUUUUUUUUUj"
+b2,rgb,msb,xy       .. text: "VUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+b2,bgr,lsb,xy       .. text: "UUUUUUUUUUUUUUUUUUUUUj"
+b2,bgr,msb,xy       .. text: "VUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+b2,rgba,lsb,xy      .. b2,rgba,msb,xy      .. b2,abgr,lsb,xy      .. b2,abgr,msb,xy      .. b3,r,lsb,xy         .. b3,r,msb,xy         .. text: "^:[c[$IR"
+b3,g,lsb,xy         .. b3,g,msb,xy         .. b3,b,lsb,xy         .. b3,b,msb,xy         .. b3,a,lsb,xy         .. b3,a,msb,xy         .. b3,rgb,lsb,xy       .. b3,rgb,msb,xy       .. b3,bgr,lsb,xy       .. b3,bgr,msb,xy       .. b3,rgba,lsb,xy      .. b3,rgba,msb,xy      .. b3,abgr,lsb,xy      .. b3,abgr,msb,xy      .. b4,r,lsb,xy         .. b4,r,msb,xy         .. text: "{wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+b4,g,lsb,xy         .. b4,g,msb,xy         .. text: "{wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+b4,b,lsb,xy         .. b4,b,msb,xy         .. text: "{wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+b4,a,lsb,xy         .. b4,a,msb,xy         .. b4,rgb,lsb,xy       .. text: "gvvgwgwwfwfwvwv"
+b4,rgb,msb,xy       .. text: "w333333UUUU"
+b4,bgr,lsb,xy       .. text: "wfvwggwvggwvvvw"
+b4,bgr,msb,xy       .. text: "333333UUUU"
+b4,rgba,lsb,xy      .. b4,rgba,msb,xy      .. b4,abgr,lsb,xy      .. b4,abgr,msb,xy      .. file: RDI Acoustic Doppler Current Profiler (ADCP)

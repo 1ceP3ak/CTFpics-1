@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Jan 30 20:33:55 2021
+Invocation: foremost a.jpg 
+Output directory: /mnt/c/Users/Retr0/Desktop/开发/CTFPICS/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: a.jpg
+Start: Sat Jan 30 20:33:55 2021
+Length: 616 KB (631131 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     615 KB 	          0 	 
+1:	00001230.zip 	       1 KB 	     629835 	 
+Finish: Sat Jan 30 20:33:55 2021
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Jan 30 20:33:55 2021

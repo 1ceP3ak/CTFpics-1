@@ -11,8 +11,18 @@ def checkpng(pic):
     file=open('pnglog.txt','r')
     print(file.read())
     print("check the IDAT")
-    os.system('./pngcheck/pngcheck.exe {} > IDATcheck'.format(pic))
+    os.system('./pngcheck/pngcheck.exe {} > IDATcheck.txt'.format(pic))
     os.system('stegpy -c {}'.format(pic))
+    print("Maybe you can try this LSB with key")
+    print("IF you know the key of the pic please input 1")
+    print("IF not input 2 I will use the password.txt")
+    choice=input()
+    if choice=="1":
+        print("INPUT THE KEY:")
+        password_lsb=input()
+        os.system("python2 lsb.py extract {} lsb_out.txt {}".format(pic,password_lsb))
+    else:
+        os.system("python3 lsbcrack.py")
 def checkjpg(pic):
     #print(ss)
     os.system('./stegdetect0.4/stegdetect.exe -s 10.0 -tjpoi {} > stegdetect.txt'.format(pic))
