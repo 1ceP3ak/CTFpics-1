@@ -2,12 +2,13 @@
 # -*- encoding: utf-8 -*-
 import os
 import stegpy
+from .webpsteg import *
 print("Please use Python3 and bash")
 print("input the pic name")
 ss=input()
 print("This will check the jpg and png or webp and put the pic in the same location")
 def checkpng(pic):
-    os.system('zsteg {} > pnglog.txt'.format(pic))
+    os.system('zsteg {} -a > pnglog.txt'.format(pic))
     file=open('pnglog.txt','r')
     print(file.read())
     print("check the IDAT")
@@ -78,7 +79,10 @@ def checkjpg(pic):
             print("We have tried outguess jphide and steghide if it doesn't work,please try the others like Invisible secret and blabla")
             #print("please use the invisible secret and maybe the pass can be broken by john")
 os.system('exiftool {}'.format(ss))
-if 'jpg' in ss:
+print('\n')
+if '.jpg' in ss:
     checkjpg(ss)
-if 'png' in ss:
+if '.png' in ss:
     checkpng(ss)
+if '.webp' in ss:
+    checkwebp(ss)
